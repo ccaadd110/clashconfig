@@ -1,6 +1,5 @@
 payload:
-# >> Anthropic
-  - DOMAIN,cdn.usefathom.com
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,claudeusercontent.com
+# >> CustomDirectRule
+  - DOMAIN,datamesh.com
+  - DOMAIN-SUFFIX,api.aicodemirror.com
+  - DOMAIN-SUFFIX,aicodemirror.com
