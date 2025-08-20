@@ -1,5 +1,5 @@
 payload:
-# >> CustomDirectRule
+# >> DirectRule
   - DOMAIN,datamesh.com
   - DOMAIN-SUFFIX,api.aicodemirror.com
   - DOMAIN-SUFFIX,aicodemirror.com
