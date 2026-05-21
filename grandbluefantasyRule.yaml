@@ -1,7 +1,24 @@
-payload:
+proxy-groups:
+  - name: GBF
+    type: select
+    proxies:
+      - 🇯🇵 Japan
+      - DIRECT
+      - Kuromis
+      - 🇭🇰 Hong Kong
+      
+rules:
 # >> GBF
   - DOMAIN-SUFFIX,game.granbluefantasy.jp
   - DOMAIN-SUFFIX,granbluefantasy.jp
   - DOMAIN-SUFFIX,mobage.jp
   - DOMAIN-SUFFIX,gbf.al.gl
   - DOMAIN-SUFFIX,granbluefantasy.akamaized.net
+
+# payload:
+# # >> GBF
+#   - DOMAIN-SUFFIX,game.granbluefantasy.jp
+#   - DOMAIN-SUFFIX,granbluefantasy.jp
+#   - DOMAIN-SUFFIX,mobage.jp
+#   - DOMAIN-SUFFIX,gbf.al.gl
+#   - DOMAIN-SUFFIX,granbluefantasy.akamaized.net
